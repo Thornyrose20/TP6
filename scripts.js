@@ -19,7 +19,8 @@ window.onload = hiddenDirections(); {
 
 //making list button work
 // Ingredients button
-function hiddenIngredients() {
+// for function use button onclick Name 
+function ingredients() {
   var y = document.getElementById("Ing");
   if(y.style.display === "none"){
     y.style.display = "block";
@@ -29,7 +30,8 @@ function hiddenIngredients() {
 }
 
 //Equipment button
-  function hiddenEquipment() {
+// for function use button onclick Name 
+  function equipment() {
   var y = document.getElementById("Equip");
   if(y.style.display === "none"){
     y.style.display = "block";
@@ -39,7 +41,8 @@ function hiddenIngredients() {
 }
 
 // direction button
-function hiddenDirections() {
+// for function use button onclick Name 
+function directions() {
   var y = document.getElementById("Dir");
   if(y.style.display === "none"){
     y.style.display = "block";
