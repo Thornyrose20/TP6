@@ -14,3 +14,15 @@ window.onload = hiddenEquipment();{
 window.onload = hiddenDirections(); {
   document.getElementById('Dir').style.display = 'none';
 }
+
+// making the lists visable on webpage
+
+//making list button work
+function hiddenIngredients(){
+  var y = document.getElementById("Ing");
+  if(y.style.display === "none"){
+    y.style.display = "block";
+  } else{
+    y.style.display ="none";
+  }
+}
