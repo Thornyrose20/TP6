@@ -1,0 +1,1 @@
+//hidding list items underneath ingredients,equipment and directions
