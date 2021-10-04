@@ -83,6 +83,7 @@ div#browniepic h1{
   font-size:80px;
   text-align:center;
   color:black;
+  line-height:4px;
 }
 
 @media screen and (orientation: landscape) {
