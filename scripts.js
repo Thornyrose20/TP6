@@ -6,18 +6,18 @@ window.onload = function() {
     document.querySelector("#box1 ul").classList.toggle("showMe");
   }
   
-  //toggle the equipment box
- window.onload = function(){
-   document.querySelector("#box2").onclick = function(){
-     document.querySelector("box2 ul").classList.toggle("showMe");
+  //toggling equipment
+   document.querySelector("#box2").onclick = function (){
+     document.querySelector("#box2 ul").classList.toggle("showMe");
    }
- } 
-  
-  
-  //toggle the directions box
-  window.onload = function(){
-    document.querySelector("#box3").onclick = function(){
-      document.querySelector("#box3 ul").classList.toggle("ShowMe");
-    }
-  }
-}
+   
+   //toggling directions
+    document.querySelector("#box3").onclick = function (){
+     document.querySelector("#box3 ol").classList.toggle("showMe");
+   }
+    
+    // changing font size
+    document.querySelector("#browniepic h1").classList.add("title");
+    
+    
+}// end of window onload
